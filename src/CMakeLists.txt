@@ -18,7 +18,7 @@ link_directories(
     ${LIB_PATH}
 )
 
-add_executable(main sampleYOLOV7.cpp)
+add_executable(main sampleYOLOV5.cpp)
 
 target_link_libraries(main ascendcl acl_dvpp stdc++ acllite opencv_core opencv_imgproc opencv_imgcodecs dl rt)
 
