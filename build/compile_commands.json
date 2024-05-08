@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/thtf/samples/inference/modelInference/sampleYOLOV7/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++  -DENABLE_DVPP_INTERFACE -I/usr/local/Ascend/ascend-toolkit/latest/runtime/include -I/usr/local/Ascend/thirdpart/aarch64/include/acllite  -g   -std=c++11 -o CMakeFiles/main.dir/sampleYOLOV7.cpp.o -c /home/thtf/samples/inference/modelInference/sampleYOLOV7/src/sampleYOLOV7.cpp",
+  "file": "/home/thtf/samples/inference/modelInference/sampleYOLOV7/src/sampleYOLOV7.cpp"
+}
+]

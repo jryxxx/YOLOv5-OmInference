@@ -1,0 +1,126 @@
+[{
+    "graph_fusion": {
+        "AConv2dMulFusion": {
+            "effect_times": "0",
+            "match_times": "59"
+        },
+        "ARefreshCubeC0FusionPass": {
+            "effect_times": "0",
+            "match_times": "62"
+        },
+        "ConstToAttrPass": {
+            "effect_times": "11",
+            "match_times": "11"
+        },
+        "ConstToAttrStridedSliceV2Fusion": {
+            "effect_times": "12",
+            "match_times": "12"
+        },
+        "ConvConcatFusionPass": {
+            "effect_times": "0",
+            "match_times": "15"
+        },
+        "ConvFormatRefreshFusionPass": {
+            "effect_times": "0",
+            "match_times": "62"
+        },
+        "ConvToFullyConnectionFusionPass": {
+            "effect_times": "0",
+            "match_times": "62"
+        },
+        "ConvWeightCompressFusionPass": {
+            "effect_times": "0",
+            "match_times": "62"
+        },
+        "CubeTransFixpipeFusionPass": {
+            "effect_times": "0",
+            "match_times": "3"
+        },
+        "FIXPIPEAPREQUANTFUSIONPASS": {
+            "effect_times": "0",
+            "match_times": "62"
+        },
+        "FIXPIPEFUSIONPASS": {
+            "effect_times": "0",
+            "match_times": "62"
+        },
+        "MulAddFusionPass": {
+            "effect_times": "0",
+            "match_times": "14"
+        },
+        "MulSquareFusionPass": {
+            "effect_times": "0",
+            "match_times": "71"
+        },
+        "Pow2SquareFusionPass": {
+            "effect_times": "3",
+            "match_times": "3"
+        },
+        "RefreshInt64ToInt32FusionPass": {
+            "effect_times": "1",
+            "match_times": "1"
+        },
+        "RemoveCastFusionPass": {
+            "effect_times": "0",
+            "match_times": "146"
+        },
+        "ReshapeTransposeFusionPass": {
+            "effect_times": "0",
+            "match_times": "3"
+        },
+        "SplitConvConcatFusionPass": {
+            "effect_times": "0",
+            "match_times": "15"
+        },
+        "StridedSliceRemovePass": {
+            "effect_times": "0",
+            "match_times": "12"
+        },
+        "SubFusionPass": {
+            "effect_times": "0",
+            "match_times": "3"
+        },
+        "TensorScatterUpdateFusionPass": {
+            "effect_times": "6",
+            "match_times": "6"
+        },
+        "TransdataCastFusionPass": {
+            "effect_times": "0",
+            "match_times": "68"
+        },
+        "TransdataFz2FzgFusionPass": {
+            "effect_times": "0",
+            "match_times": "5"
+        },
+        "TransdataFzg2FzFusionPass": {
+            "effect_times": "0",
+            "match_times": "5"
+        },
+        "TransposedUpdateFusionPass": {
+            "effect_times": "3",
+            "match_times": "3"
+        },
+        "ZConcatDFusionPass": {
+            "effect_times": "0",
+            "match_times": "15"
+        }
+    },
+    "session_and_graph_id": "0_0",
+    "ub_fusion": {
+        "AutomaticUbFusion": {
+            "effect_times": "3",
+            "match_times": "3",
+            "repository_hit_times": "0"
+        },
+        "TbeConvSigmoidMulQuantFusionPass": {
+            "effect_times": "59",
+            "match_times": "59",
+            "repository_hit_times": "0"
+        },
+        "TbeEltwiseFusionPass": {
+            "effect_times": "3",
+            "match_times": "9",
+            "repository_hit_times": "0"
+        }
+    }
+}]
