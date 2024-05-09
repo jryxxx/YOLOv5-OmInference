@@ -10,4 +10,4 @@ export = True  # onnx export
 ```python
 model.model[-1].export = False  # set Detect() layer export=True
 ```
-- 模型输入应为动态
+- 模型输入应为静态
